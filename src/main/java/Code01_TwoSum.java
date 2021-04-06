@@ -19,7 +19,6 @@ public class Code01_TwoSum {
         //哈希表 time complexity is O(N)
         int[] twoSum2 = method.twoSum2(nums, target);
         System.out.println("Result 2 = " + Arrays.toString(twoSum2));
-        System.out.println("Finish");
     }
 
 
