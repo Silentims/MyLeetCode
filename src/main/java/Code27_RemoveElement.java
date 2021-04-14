@@ -16,11 +16,13 @@ public class Code27_RemoveElement {
 
     public static void main(String[] args) {
 
-        int[] nums = {3,2,2,3,1};
+        int[] nums = {3,2,2,3,1,3,3,4,4};
         int val = 3;
         Code27_RemoveElement methmod = new Code27_RemoveElement();
         int result = methmod.removeElement(nums, val);
         System.out.println("result = " + result);
+        int result_2 = methmod.removeElement_2(nums, val);
+        System.out.println("result_2 = " + result_2);
 
     }
 
@@ -73,6 +75,20 @@ public class Code27_RemoveElement {
      * 采用类似移动零那一题的思路，重新定义数组下标从0开始，for循环数组，只要不等于val就重新往新定义的下标赋值
      * 这样只要等于val的就会被舍弃，就像移动零那一题末尾填充0的做法，只不过这里不需要单独填充，因为只返回数组的长度
      */
+    public int removeElement_2(int[] nums, int val) {
+        if (nums == null || nums.length ==0){
+            return 0;
+        }
+        int index = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val){
+                nums[index] = nums[i];
+                index++;
+            }
+        }
+        return index;
+    }
+
 
 
 
