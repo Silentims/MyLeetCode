@@ -1,14 +1,10 @@
 import java.util.Arrays;
 
-/**
- * @author xiangjx
- * @description 移动零
- * @date 2021/4/7 4:52 下午
- * @Version 1.0
- */
 public class Code283_moveZeroes {
 
     /**
+     * 283. 【数组题】移动零
+     *
      * 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
      *
      * 示例:

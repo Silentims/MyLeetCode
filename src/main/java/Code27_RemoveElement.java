@@ -1,7 +1,7 @@
 public class Code27_RemoveElement {
 
     /**
-     * 移除元素
+     * 27. 【数组题】移除元素
      *
      * 示例 1：
      * 输入：nums = [3,2,2,3], val = 3

@@ -2,7 +2,9 @@ public class Code485_FindMaxConsecutiveOnes {
 
 
     /**
-     * 最大连续 1 的个数
+     * 485. 【数组题】最大连续 1 的个数
+     *
+     *
      *
      * 给定一个二进制数组， 计算其中最大连续 1 的个数。
      *
